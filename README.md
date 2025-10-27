@@ -1,4 +1,4 @@
-s# 📞 Phone Info Checker
+# 📞 Phone Info Checker
 
 A simple Python project to check **country, carrier, and timezone information** for any phone number using the `phonenumbers` library.
 
@@ -16,8 +16,8 @@ A simple Python project to check **country, carrier, and timezone information** 
 
 1. **Clone or download** this project folder:
    ```bash
-   git clone https://github.com/yourusername/phoneinfo.git
-   cd phoneinfo
+   git clone https://github.com/Mamoonkhan11/Phone-Validation__Python
+   cd Phone-Validation__Python
    ```
 
 2. **Create a virtual environment** (recommended):
@@ -48,13 +48,12 @@ Type phone number with country code: +14155552671
 
 ✅ Lookup successful:
 
-formatted: +14155552671
-country_code: 1
-national_number: 4155552671
-region: California
-carrier: AT&T Wireless
-time_zones: ('America/Los_Angeles',)
-
+Formatted: +14155552671
+Country_code: 1
+National_number: 4155552671
+Region: California
+Carrier: AT&T Wireless
+a
 Result saved to results.txt
 ```
 
@@ -79,15 +78,6 @@ phoneinfo/
 
 ---
 
-## 🧪 Example Test
-```python
-from src.phone_info import get_phone_info
-
-result = get_phone_info("+14155552671")
-print(result)
-```
-
----
 
 ## 📜 License
 This project is released under the **MIT License** — feel free to modify and use it.
