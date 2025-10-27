@@ -1,4 +1,4 @@
-from src.phone_validatation import get_phone_info
+from src.phone_validation import get_phone_info
 from src.utils import save_to_file
 
 print("Phone Number Info Checker")
